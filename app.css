@@ -7,15 +7,19 @@ body {
   box-sizing: border-box;
 }
 
+
 .headline {
   background-color: #2a8bb5;
   overflow: auto;
-  text-align: right;
 }
 
 .headline__title {
   background-color: #2a8bb5;
-  text-align: left;
+  float: left;
+}
+
+.navbar {
+  float: right;
 }
 
 .link-box {
@@ -59,6 +63,7 @@ body {
 .profile__bottom {
   overflow: auto;
   background: red;
+  margin: 0.2rem;
 }
 
 .profile-name {
@@ -86,11 +91,6 @@ a {
   color: black;
 }
 
-.repo {
-  background: grey;
-  display: inline-block;
-}
-
 .react-dot {
   display: inline-block;
   background: purple;
@@ -100,5 +100,5 @@ a {
 }
 
 .repo-language {
- color: black;
+ color: #17d752;
 }
