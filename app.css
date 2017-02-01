@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.headline {
+  background-color: #4144cc;
+  overflow: auto;
+}
+
+.headline__title {
+  background-color: #35c655;
+}
+
+.box1 {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.borderbox {
+
+}
