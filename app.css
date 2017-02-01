@@ -8,13 +8,13 @@ body {
 }
 
 .headline {
-  background-color: #2a6ab5;
+  background-color: #2a8bb5;
   overflow: auto;
   text-align: right;
 }
 
 .headline__title {
-  background-color: #2a6ab5;
+  background-color: #2a8bb5;
   text-align: left;
 }
 
@@ -26,9 +26,10 @@ body {
   background: #efefef;
   overflow:auto;
   float: left;
-  width: 20rem;
-  height: 15rem;
-  border: solid 1px black;
+  width: 22rem;
+  height: 17rem;
+  padding: 0.5rem;
+  border: solid 1px #909090;
   border-radius: 5%;
   margin: 5rem;
   position: relative;
