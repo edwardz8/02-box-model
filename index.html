@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>grid</title>
-    <link rel="stylesheet" href="app.css">
-  </head>
-  <body>
 
-    <header class="headline">
+<head>
+  <meta charset="utf-8">
+  <title>grid</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+  <header class="headline">
     <h2 class="headline__title">Popular Github</h2>
 
     <nav class="navbar">
@@ -16,67 +18,46 @@
     </nav>
   </header>
 
-
-
   <main>
-    <div class="profile">
-    <div class="profile__top">
-      <div class="grid">
-      <img src="https://avatars0.githubusercontent.com/u/5266810?v=3&s=460" alt="profile-image">
-      <h3 class="profile-name">John</h3>
-      <h5 class="profile-username">johnnybquick</h5>
-    </div>
-  </div>
-  <div class="profile__bottom">
-    <a href="#">.NET</a><br>
-    <a href="#">.NET</a>
-    <ul>
-      <li>
-        <span class="repo">React</span><br>
-        <span class="react-dot"></span>
-        <span class="repo-language">React</span>
-      </li>
-    </ul>
-  </div>
-    </div>
-    <div></div>
+    <div class="section">
+      <div class="container">
 
-    <div class="profile">
-    <div class="profile__top">
-      <img src="https://avatars3.githubusercontent.com/u/1068915?v=3&s=460" alt="profile-image">
-      <h3 class="profile-name">Paul Pires</h3>
-      <h5 class="profile-username">paulohp</h5>
-    </div>
-    <div class="profile__bottom">
-    <a href="#">PHP</a><br>
-    <a href="#">Node.js</a>
-    <ul>
-      <li>
-        <span class="repo">React</span><br>
-        <span class="react-dot"></span>
-        <span class="repo-language">React</span>
-      </li>
-    </ul>
-  </div>
-    </div>
-    <div></div>
+        <div class="grid">
+          <div class="grid-item">
 
-    <!--<div class="profile">
-    <div class="profile__top">
-      <img src="https://avatars2.githubusercontent.com/u/6173469?v=3&s=460" alt="profile-image">
-      <h3 class="profile-name">Steve Kochaver</h3>
-      <h5 class="profile-username">skochaver</h5>
-    </div>
-    <div class="profile__bottom">
-    <a href="#">Python</a><br>
-    <a href="#">Python</a>
-  </div>
-    </div>
--->
+            <div class="profile">
+              <div class="profile__top">
+                <img src="https://avatars0.githubusercontent.com/u/5266810?v=3&s=460" alt="profile-image">
+                <h3 class="profile-name">John</h3>
+                <h5 class="profile-username">johnnybquick</h5>
+              </div>
 
+              <ul class="profile__bottom">
+                <li class="repo">
+                  <span class="repo__name">React</span><br>
 
+                  <span class="repo-language"><span class="react-dot"></span> Javascript</span>
+                </li>
+                <li class="repo">
+                  <span class="repo__name">React</span><br>
+
+                  <span class="repo-language"><span class="react-dot"></span> Javascript</span>
+                </li>
+                <li class="repo">
+                  <span class="repo__name">React</span><br>
+
+                  <span class="repo-language"><span class="react-dot"></span> Javascript</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </main>
 
 
-  </body>
-  </html>
+</body>
+
+</html>
