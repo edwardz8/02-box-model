@@ -35,13 +35,15 @@ body {
   position: relative;
 }
 
-.profile__top-left {
-
+.profile__bottom {
+  overflow: auto;
+  background: red;
 }
 
 .profile-name {
   color: black;
   margin: 1rem;
+  display: inline-block;
 }
 
 .profile-username {
@@ -57,13 +59,32 @@ img {
   border-radius: 0.5rem;
 }
 
-.grid {
+.profile__bottom {
+  overflow: auto;
+  background: red;
+}
+
+/*.grid {
   overflow: auto;
   background: blue;
 }
+*/
 
 a {
   float: right;
   text-decoration: none;
   color: black;
+}
+
+.repo {
+  background: grey;
+  display: inline-block;
+}
+
+.react-dot {
+  display: inline-block;
+  background: purple;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
 }
