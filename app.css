@@ -8,18 +8,22 @@ body {
 }
 
 .headline {
-  background-color: #4144cc;
+  background-color: #2a6ab5;
   overflow: auto;
   text-align: right;
 }
 
 .headline__title {
-  background-color: #c9dfc2;
+  background-color: #2a6ab5;
   text-align: left;
 }
 
+.link-box {
+  margin: 0.5rem;
+}
+
 .profile {
-  background: #c9dfc2;
+  background: #efefef;
   overflow:auto;
   float: left;
   width: 20rem;
@@ -27,15 +31,20 @@ body {
   border: solid 1px black;
   border-radius: 5%;
   margin: 5rem;
+  position: relative;
+}
+
+.profile__top-left {
+
 }
 
 .profile-name {
-  color: #efefef;
+  color: black;
   margin: 1rem;
 }
 
 .profile-username {
-  color: #efefef;
+  color: lightgray;
   margin: 1rem;
 
 }
