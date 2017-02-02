@@ -3,18 +3,24 @@ body {
   font-family: sans-serif;
 }
 
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.header {
-  overflow: auto;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .headline {
   background-color: #2a8bb5;
   overflow: auto;
-  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .headline__title {
@@ -23,22 +29,34 @@ body {
   margin: 2rem;
 }
 
-.link-box {
-  margin: 1rem;
-  padding-top: 1.3rem;
+.top-nav {
+  overflow: auto;
+  margin: 0;
+  padding: 0 1rem;
+
 }
 
+.top-nav__left {
+  float: left;
+  margin: 1rem 0;
+}
 
+.top-nav__right {
+  margin: 1rem 0;
+  float: right;
+}
+
+.top-nav__item {
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0 1rem;
+}
 
 .container {
   max-width: 90%;
   margin: 0 auto;
 }
 
-/*.row {
-  overflow: auto;
-  margin: -2rem;
-}*/
 
 .grid {
   overflow: auto;
@@ -53,7 +71,6 @@ body {
 .profile {
   padding: 1rem;
   overflow: auto;
-  border-bottom: .1rem solid #aaa;
 }
 
 .user-image {
@@ -86,22 +103,32 @@ img {
   max-width: 100%;
 }
 
-a {
-  float: right;
-  text-decoration: none;
-  color: black;
-}
-
 /*Bottom of Profile*/
 
 .repo {
-
+padding: 0;
+margin: 0;
 }
 
 .repo__item {
-
+  border-top: .1rem solid #aaa;
+  padding: .25rem 1rem;
+  margin: 0;
+  overflow: auto;
 }
 
 .repo-name {
+      float: left;
+}
 
+.repo__item-left {
+      float: right;
+}
+
+.repo__item-dot-html {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #61c97d;
 }
