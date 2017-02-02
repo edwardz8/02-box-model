@@ -7,82 +7,83 @@ body {
   box-sizing: border-box;
 }
 
+.header {
+  overflow: auto;
+}
 
 .headline {
   background-color: #2a8bb5;
   overflow: auto;
+  margin: 0 auto;
 }
 
 .headline__title {
   background-color: #2a8bb5;
   float: left;
-}
-
-.navbar {
-  float: right;
+  margin: 2rem;
 }
 
 .link-box {
-  margin: 0.5rem;
+  margin: 1rem;
+  padding-top: 1.3rem;
 }
 
-.section {
-  padding: 2rem;
-  background: #1ee6a4;
-}
+
 
 .container {
-  max-width: 65rem;
+  max-width: 90%;
   margin: 0 auto;
 }
 
-.row {
+/*.row {
   overflow: auto;
   margin: -2rem;
-
-}
+}*/
 
 .grid {
   overflow: auto;
-  background: green;
+  margin: 1rem;
+  width: calc(100% / 3 - 2rem - 2rem);
+  float: left;
+  min-width: 20rem;
+  border: 0.1rem solid #aaa;
+  border-radius: 0.5rem;
 }
-
 
 .profile {
-  background: #efefef;
-  overflow:auto;
-  float: left;
-  width: 22rem;
-  height: 17rem;
-  padding: 0.5rem;
-  border: solid 1px #909090;
-  border-radius: 5%;
-  margin: 5rem;
+  padding: 1rem;
+  overflow: auto;
+  border-bottom: .1rem solid #aaa;
 }
 
-.profile__bottom {
-  overflow: auto;
-  background: red;
-  margin: 0.2rem;
+.user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  float: left;
+}
+
+.user-info__text {
+  margin-left: 1rem;
+  float: left;
 }
 
 .profile-name {
   color: black;
-  margin: 1rem;
-  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
-.profile-username {
-  color: lightgray;
-  margin: 1rem;
 
+.profile-username {
+  color: #878b89;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 img {
-  width: 5rem;
-  height: 5rem;
-  margin: 0.5rem;
-  border-radius: 0.5rem;
+  max-width: 100%;
 }
 
 a {
@@ -91,14 +92,16 @@ a {
   color: black;
 }
 
-.react-dot {
-  display: inline-block;
-  background: purple;
-  border-radius: 50%;
-  height: 0.5rem;
-  width: 0.5rem;
+/*Bottom of Profile*/
+
+.repo {
+
 }
 
-.repo-language {
- color: #17d752;
+.repo__item {
+
+}
+
+.repo-name {
+
 }
