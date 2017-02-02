@@ -27,12 +27,14 @@ ul {
   background-color: #2a8bb5;
   float: left;
   margin: 2rem;
+  color: white;
 }
 
 .top-nav {
   overflow: auto;
-  margin: 0;
+  margin: 0.5;
   padding: 0 1rem;
+
 
 }
 
@@ -44,12 +46,15 @@ ul {
 .top-nav__right {
   margin: 1rem 0;
   float: right;
+  color: white;
 }
 
 .top-nav__item {
   font-size: 1rem;
   display: inline-block;
   padding: 0 1rem;
+  padding-top: 1.5rem;
+
 }
 
 .container {
@@ -83,19 +88,19 @@ ul {
 .user-info__text {
   margin-left: 1rem;
   float: left;
+  padding: 0.5rem;
 }
 
 .profile-name {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
 
 .profile-username {
   color: #878b89;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.7rem;
   margin: 0;
 }
 
@@ -121,14 +126,102 @@ margin: 0;
       float: left;
 }
 
-.repo__item-left {
+.repo__item-right {
       float: right;
 }
 
-.repo__item-dot-html {
+.repo__dot {
   display: inline-block;
   width: .75rem;
   height: .75rem;
   border-radius: 50%;
   background: #61c97d;
+}
+
+.repo__dot__two {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #222d63;
+}
+
+.repo__dot__three {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #cde848;
+}
+
+.repo__dot__four {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #db31a2;
+}
+
+.repo__dot__five {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #998559;
+}
+
+.repo__dot__six {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #da61ce;
+}
+
+.repo__dot__seven {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #da7135;
+}
+
+.repo__dot__eight {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #64a463;
+}
+
+.repo__dot__nine {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #eb523d;
+}
+
+.repo__dot__ten {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #222d63;
+}
+
+.repo__dot__eleven {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #02040b;
+}
+
+.repo__dot__twelve {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #222d63;
 }
