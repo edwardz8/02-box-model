@@ -12,21 +12,25 @@ ul {
   box-sizing: border-box;
 }
 
+.section {
+  margin: 0 auto;
+  padding: 1rem;
+}
 .container {
-  max-width: 90%;
+  max-width: 65rem;
   margin: 0 auto;
 }
 
 .headline {
   background-color: #2a8bb5;
   overflow: auto;
-  padding: 0 2rem;
+  padding: 0;
 }
 
 .headline__title {
   background-color: #2a8bb5;
   float: left;
-  margin: 2rem;
+  margin: 0;
   color: white;
 }
 
@@ -34,13 +38,11 @@ ul {
   overflow: auto;
   margin: 0.5;
   padding: 0 1rem;
-
-
 }
 
 .top-nav__left {
   float: left;
-  margin: 1rem 0;
+  margin: 0;
 }
 
 .top-nav__right {
@@ -57,16 +59,12 @@ ul {
 
 }
 
-.container {
-  max-width: 95%;
-  margin: 0 auto;
-}
 
 
 .grid {
   overflow: auto;
-  margin: 1rem;
-  width: calc(100% / 3 - 2rem - 2rem);
+  margin: 1rem auto;
+  width: calc(100% / 3 - 1rem - 1rem);
   float: left;
   min-width: 20rem;
   border: 0.1rem solid #aaa;
@@ -74,7 +72,7 @@ ul {
 }
 
 .profile {
-  padding: 0.8rem;
+  margin: 1rem auto;
   overflow: auto;
 }
 
